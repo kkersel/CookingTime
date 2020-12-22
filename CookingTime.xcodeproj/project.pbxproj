@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA617E312592B42F00ECDDC7 /* CookingTime WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FA617E302592B42F00ECDDC7 /* CookingTime WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA617E372592B42F00ECDDC7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA617E352592B42F00ECDDC7 /* Interface.storyboard */; };
+		FA617E392592B43000ECDDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA617E382592B43000ECDDC7 /* Assets.xcassets */; };
+		FA617E402592B43000ECDDC7 /* CookingTime WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FA617E3F2592B43000ECDDC7 /* CookingTime WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA617E452592B43000ECDDC7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA617E442592B43000ECDDC7 /* InterfaceController.swift */; };
+		FA617E472592B43000ECDDC7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA617E462592B43000ECDDC7 /* ExtensionDelegate.swift */; };
+		FA617E492592B43000ECDDC7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA617E482592B43000ECDDC7 /* NotificationController.swift */; };
+		FA617E4B2592B43000ECDDC7 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA617E4A2592B43000ECDDC7 /* ComplicationController.swift */; };
+		FA617E4D2592B43100ECDDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA617E4C2592B43100ECDDC7 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA617E322592B42F00ECDDC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA617E262592B42F00ECDDC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA617E2F2592B42F00ECDDC7;
+			remoteInfo = "CookingTime WatchKit App";
+		};
+		FA617E412592B43000ECDDC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA617E262592B42F00ECDDC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA617E3E2592B43000ECDDC7;
+			remoteInfo = "CookingTime WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA617E552592B43100ECDDC7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA617E402592B43000ECDDC7 /* CookingTime WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA617E592592B43100ECDDC7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FA617E312592B42F00ECDDC7 /* CookingTime WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA617E2C2592B42F00ECDDC7 /* CookingTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookingTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA617E302592B42F00ECDDC7 /* CookingTime WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CookingTime WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA617E362592B42F00ECDDC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FA617E382592B43000ECDDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA617E3A2592B43000ECDDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA617E3F2592B43000ECDDC7 /* CookingTime WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CookingTime WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA617E442592B43000ECDDC7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FA617E462592B43000ECDDC7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FA617E482592B43000ECDDC7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FA617E4A2592B43000ECDDC7 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		FA617E4C2592B43100ECDDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA617E4E2592B43100ECDDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA617E4F2592B43100ECDDC7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA617E3C2592B43000ECDDC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA617E252592B42F00ECDDC7 = {
+			isa = PBXGroup;
+			children = (
+				FA617E342592B42F00ECDDC7 /* CookingTime WatchKit App */,
+				FA617E432592B43000ECDDC7 /* CookingTime WatchKit Extension */,
+				FA617E2D2592B42F00ECDDC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA617E2D2592B42F00ECDDC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA617E2C2592B42F00ECDDC7 /* CookingTime.app */,
+				FA617E302592B42F00ECDDC7 /* CookingTime WatchKit App.app */,
+				FA617E3F2592B43000ECDDC7 /* CookingTime WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA617E342592B42F00ECDDC7 /* CookingTime WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FA617E352592B42F00ECDDC7 /* Interface.storyboard */,
+				FA617E382592B43000ECDDC7 /* Assets.xcassets */,
+				FA617E3A2592B43000ECDDC7 /* Info.plist */,
+			);
+			path = "CookingTime WatchKit App";
+			sourceTree = "<group>";
+		};
+		FA617E432592B43000ECDDC7 /* CookingTime WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA617E442592B43000ECDDC7 /* InterfaceController.swift */,
+				FA617E462592B43000ECDDC7 /* ExtensionDelegate.swift */,
+				FA617E482592B43000ECDDC7 /* NotificationController.swift */,
+				FA617E4A2592B43000ECDDC7 /* ComplicationController.swift */,
+				FA617E4C2592B43100ECDDC7 /* Assets.xcassets */,
+				FA617E4E2592B43100ECDDC7 /* Info.plist */,
+				FA617E4F2592B43100ECDDC7 /* PushNotificationPayload.apns */,
+			);
+			path = "CookingTime WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA617E2B2592B42F00ECDDC7 /* CookingTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA617E5A2592B43100ECDDC7 /* Build configuration list for PBXNativeTarget "CookingTime" */;
+			buildPhases = (
+				FA617E2A2592B42F00ECDDC7 /* Resources */,
+				FA617E592592B43100ECDDC7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA617E332592B42F00ECDDC7 /* PBXTargetDependency */,
+			);
+			name = CookingTime;
+			productName = CookingTime;
+			productReference = FA617E2C2592B42F00ECDDC7 /* CookingTime.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		FA617E2F2592B42F00ECDDC7 /* CookingTime WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA617E562592B43100ECDDC7 /* Build configuration list for PBXNativeTarget "CookingTime WatchKit App" */;
+			buildPhases = (
+				FA617E2E2592B42F00ECDDC7 /* Resources */,
+				FA617E552592B43100ECDDC7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA617E422592B43000ECDDC7 /* PBXTargetDependency */,
+			);
+			name = "CookingTime WatchKit App";
+			productName = "CookingTime WatchKit App";
+			productReference = FA617E302592B42F00ECDDC7 /* CookingTime WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FA617E3E2592B43000ECDDC7 /* CookingTime WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA617E522592B43100ECDDC7 /* Build configuration list for PBXNativeTarget "CookingTime WatchKit Extension" */;
+			buildPhases = (
+				FA617E3B2592B43000ECDDC7 /* Sources */,
+				FA617E3C2592B43000ECDDC7 /* Frameworks */,
+				FA617E3D2592B43000ECDDC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CookingTime WatchKit Extension";
+			productName = "CookingTime WatchKit Extension";
+			productReference = FA617E3F2592B43000ECDDC7 /* CookingTime WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA617E262592B42F00ECDDC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FA617E2B2592B42F00ECDDC7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FA617E2F2592B42F00ECDDC7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FA617E3E2592B43000ECDDC7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = FA617E292592B42F00ECDDC7 /* Build configuration list for PBXProject "CookingTime" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA617E252592B42F00ECDDC7;
+			productRefGroup = FA617E2D2592B42F00ECDDC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA617E2B2592B42F00ECDDC7 /* CookingTime */,
+				FA617E2F2592B42F00ECDDC7 /* CookingTime WatchKit App */,
+				FA617E3E2592B43000ECDDC7 /* CookingTime WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA617E2A2592B42F00ECDDC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA617E2E2592B42F00ECDDC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA617E392592B43000ECDDC7 /* Assets.xcassets in Resources */,
+				FA617E372592B42F00ECDDC7 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA617E3D2592B43000ECDDC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA617E4D2592B43100ECDDC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA617E3B2592B43000ECDDC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA617E492592B43000ECDDC7 /* NotificationController.swift in Sources */,
+				FA617E4B2592B43000ECDDC7 /* ComplicationController.swift in Sources */,
+				FA617E472592B43000ECDDC7 /* ExtensionDelegate.swift in Sources */,
+				FA617E452592B43000ECDDC7 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA617E332592B42F00ECDDC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA617E2F2592B42F00ECDDC7 /* CookingTime WatchKit App */;
+			targetProxy = FA617E322592B42F00ECDDC7 /* PBXContainerItemProxy */;
+		};
+		FA617E422592B43000ECDDC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA617E3E2592B43000ECDDC7 /* CookingTime WatchKit Extension */;
+			targetProxy = FA617E412592B43000ECDDC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA617E352592B42F00ECDDC7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA617E362592B42F00ECDDC7 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA617E502592B43100ECDDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA617E512592B43100ECDDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA617E532592B43100ECDDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CookingTime WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandr-Solovev.CookingTime.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		FA617E542592B43100ECDDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CookingTime WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandr-Solovev.CookingTime.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		FA617E572592B43100ECDDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = CookingTime_WatchKit_Extension;
+				INFOPLIST_FILE = "CookingTime WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandr-Solovev.CookingTime.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		FA617E582592B43100ECDDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = CookingTime_WatchKit_Extension;
+				INFOPLIST_FILE = "CookingTime WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandr-Solovev.CookingTime.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		FA617E5B2592B43100ECDDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandr-Solovev.CookingTime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA617E5C2592B43100ECDDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandr-Solovev.CookingTime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA617E292592B42F00ECDDC7 /* Build configuration list for PBXProject "CookingTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA617E502592B43100ECDDC7 /* Debug */,
+				FA617E512592B43100ECDDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA617E522592B43100ECDDC7 /* Build configuration list for PBXNativeTarget "CookingTime WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA617E532592B43100ECDDC7 /* Debug */,
+				FA617E542592B43100ECDDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA617E562592B43100ECDDC7 /* Build configuration list for PBXNativeTarget "CookingTime WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA617E572592B43100ECDDC7 /* Debug */,
+				FA617E582592B43100ECDDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA617E5A2592B43100ECDDC7 /* Build configuration list for PBXNativeTarget "CookingTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA617E5B2592B43100ECDDC7 /* Debug */,
+				FA617E5C2592B43100ECDDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA617E262592B42F00ECDDC7 /* Project object */;
+}
